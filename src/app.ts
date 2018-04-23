@@ -1,3 +1,3 @@
-const val = 'hi';
-console.log(val);
+export const val = 'hi';
+
 

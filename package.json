@@ -2,10 +2,10 @@
   "name": "ngmx-cli",
   "version": "0.1.0",
   "description": "Node JS CLI for ngmx starter",
-  "main": "./src/app.ts",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node ./src/app.ts"
+    "start": "ts-node index.ts"
   },
   "repository": {
     "type": "git",
