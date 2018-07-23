@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3a437c2-e93c-4d4c-af3b-b574cc201532" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test/Actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/Actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/Actions.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,31 +51,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="279">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Actions.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Actions.ts">
+        <entry file="file://$PROJECT_DIR$/helpers/Actions.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="837">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app.ts">
+      <file leaf-file-name="Actions.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helpers/Actions.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="288">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="571">
+              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
@@ -129,10 +146,12 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/scripts/modifyActions.ts" />
-        <option value="$PROJECT_DIR$/test/Actions.ts" />
         <option value="$PROJECT_DIR$/src/modifyActions.ts" />
-        <option value="$PROJECT_DIR$/src/app.ts" />
+        <option value="$PROJECT_DIR$/test/Actions.txt" />
+        <option value="$PROJECT_DIR$/test/Actions.ts" />
+        <option value="$PROJECT_DIR$/helpers/Actions.ts" />
         <option value="$PROJECT_DIR$/index.ts" />
+        <option value="$PROJECT_DIR$/src/app.ts" />
       </list>
     </option>
   </component>
@@ -152,11 +171,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-2212" />
-    <option name="y" value="151" />
-    <option name="width" value="1941" />
-    <option name="height" value="1223" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="192" />
+    <option name="y" value="88" />
+    <option name="width" value="1792" />
+    <option name="height" value="1243" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -177,12 +196,12 @@
             <path>
               <item name="leo-cli" type="b2602c69:ProjectViewProjectNode" />
               <item name="leo-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leo-cli" type="b2602c69:ProjectViewProjectNode" />
               <item name="leo-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,7 +226,11 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\U027MXN\WebstormProjects\Leo\leo-cli\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\U027MXN\WebstormProjects\Leo\leo-cli" />
       <recent name="C:\Users\U027MXN\WebstormProjects\Leo\leo-cli\src" />
     </key>
   </component>
@@ -320,25 +343,25 @@
       <workItem from="1531598452657" duration="242000" />
       <workItem from="1531598704354" duration="1447000" />
       <workItem from="1532354783593" duration="197000" />
-      <workItem from="1532357603894" duration="3230000" />
+      <workItem from="1532357603894" duration="17726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13700000" />
+    <option name="totallyTimeSpent" value="28196000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1851" y="240" width="1941" height="1223" extended-state="0" />
+    <frame x="-9" y="-9" width="2578" height="1424" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31962025" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32920793" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32780486" />
+      <window_info id="npm" order="2" sideWeight="0.5008157" side_tool="true" weight="0.24673267" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27406198" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32997882" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.24673267" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -388,6 +411,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -588,13 +614,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore.txt" />
     <entry file="file://$PROJECT_DIR$/src/templates/pages/page.module.ts" />
     <entry file="file://$PROJECT_DIR$/src/templates/pages/page.component.html" />
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -619,27 +638,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Actions.ts">
+    <entry file="file://$PROJECT_DIR$/src/modifyActions.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/Actions.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
+        <state relative-caret-position="638">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modifyActions.ts">
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/copied/Actions.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.ts">
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/Actions.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="288">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/Actions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="279">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
