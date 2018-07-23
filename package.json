@@ -1,23 +1,28 @@
 {
-  "name": "ngmx-cli",
+  "name": "leo-cli",
   "version": "0.1.0",
-  "description": "Node JS CLI for ngmx starter",
-  "main": "index.ts",
+  "description": "Node JS CLI for LEO Personal Assistant",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node index.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MikeIke24/ngmx-cli.git"
+    "url": "git+https://github.com/MikeIke24/leo-cli.git"
+  },
+  "bin": {
+    "leo": "./index.js"
   },
   "author": "Michael Nelms",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MikeIke24/ngmx-cli/issues"
+    "url": "https://github.com/MikeIke24/leo-cli/issues"
   },
-  "homepage": "https://github.com/MikeIke24/ngmx-cli#readme",
+  "homepage": "https://github.com/MikeIke24/leo-cli#readme",
   "dependencies": {
+    "@types/node": "^10.5.2",
+    "commander": "^2.16.0",
     "ts-node": "^6.0.0",
     "typescript": "^2.8.3"
   }
